@@ -8,7 +8,7 @@ print(f"The bmi comes to be: {bmi_cal}")
 print("welcome to tip calculator")
 bill = float(input("enter the bill:"))
 tip = float(input("Enter the tip:"))
-total = bill * (bill/100) + tip
+total = bill * (tip/100) + bill
 print(f"The total is: ${total}")
 no = int(input(("enter number of people:")))
 print(f"The total for each is: ${float(round((tip+bill)/no,2))}")
